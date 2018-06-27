@@ -1,0 +1,11 @@
+---
+galaxy_info:
+  author: Vitaly Uvarov
+  description: mkfs helper
+  license: MIT
+  min_ansible_version: 1.0
+  galaxy_tags:
+    - mkfs
+    - linux
+    - centos
+    - debian
