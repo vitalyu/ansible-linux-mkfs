@@ -4,6 +4,13 @@ galaxy_info:
   description: mkfs helper
   license: MIT
   min_ansible_version: 1.0
+  platforms:
+    - name: EL
+      versions:
+        - 7
+    - name: Debian
+      versions:
+        - all
   galaxy_tags:
     - mkfs
     - linux
