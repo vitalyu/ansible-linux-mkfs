@@ -1,0 +1,7 @@
+---
+# defaults file for linux-mkfs
+mkfs:
+  - filesystem_type: 'xfs'
+    device: '/dev/sdb1'
+    mount_point: "/home"
+    mount_options: "nobarrier,noatime"
